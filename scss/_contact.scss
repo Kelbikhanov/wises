@@ -1,4 +1,3 @@
-/*=================== contact banner start ====================*/
 
 .dropdown .dropdown-menu {
   -webkit-transition: all 0.3s;
@@ -38,10 +37,7 @@
     }
   }
 }
-/*=================== contact banner end ====================*/
 
-
-/*=================== contact form start ====================*/
 .contact-title{
   font-size: 27px;
   font-weight: 600;
@@ -51,7 +47,8 @@
 .form-contact{
 
   label{
-    font-size: 14px;
+    font-size: 24px;
+    color: red;
   }
 
   .form-group{
@@ -81,16 +78,8 @@
     border-radius: 0px;
     height: 100% !important;
   }
-
-  // button{
-  //   border: 0;
-  // }
 }
 
-/*=================== contact form end ====================*/
-
-/* Contact Success and error Area css
-============================================================================================ */
 
 
 .modal-message {

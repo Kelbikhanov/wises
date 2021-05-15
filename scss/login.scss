@@ -1,0 +1,69 @@
+$var1: #234262;
+$var2: #ffffff;
+$var3: #0fc3f5;
+$var4: #4442db;
+
+.body_login {
+	background: url(../img/banner/bradcam.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+.form {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	h1 {
+		font-family: "Poppins", sans-serif;
+		margin: 30px 100px;
+		padding: 0;
+		text-align: center;
+		color: $var1;
+		font-size: 40px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	a {
+		display: block;
+		padding: 0 0 30px;
+		text-align: center;
+		color: $var1;
+		text-decoration: none;
+		transition: .3s;
+		font-size: 18px;
+		&:hover {
+			color: $var3;
+		}
+	}
+}
+.input-form {
+	margin: 15px 40px;
+	text-align: center;
+	input {
+		padding: 10px;
+		width: 100%;
+		color: $var2;
+		font-size: 20px;
+		background-color: none;
+		outline: none;
+		border: 2px solid $var1;
+		box-sizing: border-box;
+		&[type="text"]:focus, &[type="password"]:focus {
+			border: 2px solid $var1;
+		}
+		&[type="submit"] {
+			margin-top: 20px;
+			color: $var2;
+			font-weight: bold;
+			text-transform: uppercase;
+			border: none;
+			background-color: $var3;
+			transition: .3s;
+			&:hover {
+				background-color: $var4;
+			}
+		}
+	}
+}
